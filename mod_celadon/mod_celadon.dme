@@ -15,8 +15,7 @@
 // --- MOBS --- //
 
 // --- MISC --- //
-#include "disable_vagabond/_disable_vagabond.dm"
-#include "disable_vagabond/code/disable_vagabond.dm"
+#include "disable_vagabond/_disable_vagabond.dme"
 
 // --- RETURNS --- //
 
