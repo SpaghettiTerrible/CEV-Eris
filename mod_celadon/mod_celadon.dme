@@ -38,16 +38,3 @@
 // --- EVENTS --- //
 
 // #include "event_td/_event_td.dme" // Ивент на атаку и защита
-
-//#include "event_cly/_event_cly.dme"
-// BEGIN_INTERNALS
-// END_INTERNALS
-// BEGIN_FILE_DIR
-#define FILE_DIR .
-// END_FILE_DIR
-// BEGIN_PREFERENCES
-// END_PREFERENCES
-// BEGIN_INCLUDE
-#include "_modpack.dm"
-#include "_modpacks.dm"
-// END_INCLUDE
