@@ -23,8 +23,7 @@ ID мода: CELADON_OVERMAP_RUIN_ROUNDSTARTACCES_FIX
 
 ### Описание мода
 
-Этот мод служит примером для разработчиков и существует лишь для того,
-чтобы его можно было легко скопировать и вставить в другое место.
+Убирает возможность шахтерам долетать до ещё не исследованных космо-руин
 <!--
   Что он делает, что добавляет: что, куда, зачем и почему - всё здесь.
   А также любая полезная информация.
@@ -53,8 +52,37 @@ ID мода: CELADON_OVERMAP_RUIN_ROUNDSTARTACCES_FIX
 -->
 
 ### Оверрайды
+- /obj/effect/overmap/sector/fortress
+	..()
+	known = 1
 
-- Отсутствуют
+/obj/effect/overmap/sector/prisonhulk
+	..()
+	known = 1
+
+/obj/effect/overmap/sector/asteroid
+	..()
+	known = 1
+
+/obj/effect/overmap/sector/spaceruins
+	..()
+	known = 1
+
+- /obj/effect/overmap/sector/fortress
+	..()
+	known = 0
+
+/obj/effect/overmap/sector/prisonhulk
+	..()
+	known = 0
+
+/obj/effect/overmap/sector/asteroid
+	..()
+	known = 0
+
+/obj/effect/overmap/sector/spaceruins
+	..()
+	known = 0
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
