@@ -1,0 +1,8 @@
+#ifndef MODPACK_CELADON_OVERMAP_RUIN_ROUNDSTARTACCES_FIX
+#define MODPACK_CELADON_OVERMAP_RUIN_ROUNDSTARTACCES_FIX
+
+#include "_overmap_ruin_roundstartacces_fix.dm"
+
+#include "code/overmap_ruin_roundstartacces_fix.dm"
+
+#endif
