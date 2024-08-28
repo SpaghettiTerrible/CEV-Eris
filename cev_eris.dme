@@ -2855,6 +2855,8 @@
 #include "maps\submaps\planetary_ruins\radshrine\radshrine.dm"
 #include "maps\submaps\planetary_ruins\spider_nest\spider_nest.dm"
 #include "maps\submaps\planetary_ruins\tar_anomaly\tar_anomaly.dm"
+#include "mod_celadon\disable_vagabond\_disable_vagabond.dm"
+#include "mod_celadon\disable_vagabond\code\disable_vagabond.dm"
 // END_INCLUDE
 
 // CELADON

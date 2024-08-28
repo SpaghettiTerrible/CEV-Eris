@@ -1,0 +1,8 @@
+#ifndef MODPACK_CELADON_DISABLE_VAGABOND
+#define MODPACK_CELADON_DISABLE_VAGABOND
+
+#include "_disable_vagabond.dm"
+
+#include "code/disable_vagabond.dm"
+
+#endif
