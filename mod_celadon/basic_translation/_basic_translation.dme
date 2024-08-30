@@ -1,0 +1,8 @@
+#ifndef MODPACK_CELADON_BASIC_TRANSLATION
+#define MODPACK_CELADON_BASIC_TRANSLATION
+
+#include "_basic_translation.dm"
+
+#include "code/basic_translation.dm"
+
+#endif
